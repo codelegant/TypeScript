@@ -1,12 +1,12 @@
-//var mySearch: searchFunc;
-function mySearch(source, subString) {
-    var result = source.search(subString);
+var mySearch;
+mySearch = function (src, sub) {
+    var result = src.search(sub);
     if (result == -1) {
         return false;
     }
     else {
         return true;
     }
-}
+};
 var result = mySearch("laichuanfeng", "lai");
 console.log(result);
