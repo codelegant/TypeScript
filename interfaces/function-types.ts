@@ -2,8 +2,7 @@ interface searchFunc{
 	(source: string, subString: string): boolean;
 }
 
-var mySearch: searchFunc;
-mySearch=function(src,sub){
+var mySearch: searchFunc=function(src,sub){
 	var result = src.search(sub);
 	if (result == -1) {
 		return false;

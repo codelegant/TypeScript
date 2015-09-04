@@ -7,6 +7,4 @@ var Clock = (function () {
     return Clock;
 })();
 var clock = new Clock(12, 21);
-var a = Date.now;
-clock.setTime(a);
-console.log(clock.currentTime);
+clock.setTime("fuck");

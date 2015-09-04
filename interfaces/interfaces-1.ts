@@ -1,5 +1,5 @@
-function printLabel(labelObj:{label:string}){
-	console.log(labelObj.label);
+function printName(fullName: { firstname: string }) {
+	console.log(fullName.firstname);
 }
-var myObj={size:10,label:"Object to 10"}
-printLabel(myObj);
+var myName = { age: 10, firstname: "lai" }
+printName(myName);

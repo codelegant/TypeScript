@@ -1,3 +1,3 @@
-var myArr;
-myArr = { "a": "Bob", "b": "Fred" };
-console.log(myArr["a"]);
+var myName = ["lai", "chuanfeng"];
+var myFirstname = { "firstname": "lai" };
+console.log(myName[0]);

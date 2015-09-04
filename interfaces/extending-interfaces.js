@@ -1,10 +1,10 @@
-var square = {"lai":"good"};
+var square = {};
 square.color = "blue";
 square.sideLength = 10;
-var square_2 = {"lai":"chuanfeng"};
+var square_2 = {};
 square_2.color = "red";
 square_2.sideLength = 23;
-if(!square.hasOwnProperty("lai")){
-	square.lai="laichuanfeng";
-}
-console.log(square);
+console.log(square_2);
+var fullname = {};
+fullname.firstname = "lai";
+fullname.lastname = "chuanfeng";

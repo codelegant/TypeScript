@@ -1,8 +1,18 @@
-interface Label{
-	label:string
+/*interface Fullname {
+	firstname: string
 }
-function printLabel(labelobj:Label){
-	console.log(labelobj.label)
+function printName(name: Fullname) {
+	console.log(name.firstname)
 }
-var myObj = { size: 10, label: "Size 10 Object" };
-printLabel(myObj);
+var myName = { age: 10, firstname: "Size 10 Object" };
+printName(myName);*/
+
+interface Fullname {
+	firstname: string;
+	age?: number;
+}
+function printName(name: Fullname) {
+	console.log(name.firstname)
+}
+var myName = { age: "str", firstname: "lai" };
+printName(myName);

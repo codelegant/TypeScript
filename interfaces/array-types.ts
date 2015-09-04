@@ -1,10 +1,9 @@
-interface stringArray{
+interface Fullname {
 	[index: number]: string;
 }
-interface object{
+interface Firstname {
 	[index: string]: string;
 }
-var myArr: stringArray;
-myArr = ["Bob", "Fred"];
-var myobj: object = { "name": "lai" };
-console.log(myArr[0]);
+var myName: Fullname = ["lai", "chuanfeng"];
+var myFirstname: Firstname = { "firstname": "lai" };
+console.log(myName[0]);
