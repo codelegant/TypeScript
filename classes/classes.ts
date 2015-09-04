@@ -13,10 +13,10 @@
 	}
 	var GreeterInstance: GreeterIn = Greeter;
 	var greeter = new GreeterInstance("laichuanfeng");
-	//console.log(greeter.greeting);
+	console.log(greeter.greet());
 	function test({firstname ="lai", lastname = "chuanfeng"}){
 		return [firstname,lastname];
 	}
 	var [firstname, lastname] = test({lastname:"caiyun",firstname:"xiao"});
-	console.log(test({lastname:"caiyun",firstname:"xiao"}));
+	//console.log(test({lastname:"caiyun",firstname:"xiao"}));
 })();
