@@ -42,5 +42,5 @@ var Horse = (function (_super) {
 var sam = new Snake();
 var tom = new Horse("Tommy the Palomino");
 sam.move();
-tom.move(34);
-tom.name;
+//tom.move(34);
+//tom.name; 
