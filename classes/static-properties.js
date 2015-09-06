@@ -7,7 +7,7 @@ var Grid = (function () {
         var yDist = (point.y - Grid.origin.y);
         return Math.sqrt(xDist * xDist + yDist * yDist) / this.scale;
     };
-    Grid.origin = { x: 0, y: 0 }; //不需要实例化就能访问
+    Grid.origin = { x: 0, y: 0 };
     return Grid;
 })();
 var grid1 = new Grid(1.0);

@@ -16,5 +16,4 @@
         return [firstname, lastname];
     }
     var _a = test({ lastname: "caiyun", firstname: "xiao" }), firstname = _a[0], lastname = _a[1];
-    //console.log(test({lastname:"caiyun",firstname:"xiao"}));
 })();

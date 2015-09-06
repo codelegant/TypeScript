@@ -8,3 +8,4 @@ console.log(square_2);
 var fullname = {};
 fullname.firstname = "lai";
 fullname.lastname = "chuanfeng";
+fullname.age = 23;

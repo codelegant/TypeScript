@@ -15,7 +15,6 @@ var Greeter = (function () {
 var greeter1 = new Greeter();
 console.log(greeter1.greet());
 var greeterMarker = Greeter;
-//var greeterMarker = Greeter;
 greeterMarker.standardGreeting = "Hey there!";
 var greeter2 = new greeterMarker();
 console.log(greeter2.greet());

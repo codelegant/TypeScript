@@ -15,8 +15,6 @@ var Animal = (function () {
 })();
 var Snake = (function (_super) {
     __extends(Snake, _super);
-    //不用重写constructor，用了反而让人迷惑，除非你想指定某个值
-    //constructor(name: string) { super(name); }
     function Snake() {
         _super.call(this, "laichuanfeng");
     }
@@ -42,5 +40,3 @@ var Horse = (function (_super) {
 var sam = new Snake();
 var tom = new Horse("Tommy the Palomino");
 sam.move();
-//tom.move(34);
-//tom.name; 
