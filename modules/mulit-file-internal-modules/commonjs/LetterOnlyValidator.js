@@ -12,4 +12,3 @@ var Validation;
     })();
     Validation.LetterOnlyValidator = LetterOnlyValidator;
 })(Validation || (Validation = {}));
-//# sourceMappingURL=LetterOnlyValidator.js.map

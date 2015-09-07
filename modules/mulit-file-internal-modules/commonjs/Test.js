@@ -10,4 +10,3 @@ strings.forEach(function (s) {
         console.log("\"" + s + "\"" + (validators[name].isAcceptable(s) ? "matches " : " does not macth ") + "name");
     }
 });
-//# sourceMappingURL=Test.js.map

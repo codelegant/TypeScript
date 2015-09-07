@@ -7,6 +7,7 @@ var mySearch = function (src, sub) {
         return true;
     }
 };
+//函数定义表达式
 var otherFunc = function (src, sub) {
     return true;
 };
@@ -17,3 +18,10 @@ function account() {
 }
 var a = account();
 a.add(5);
+/*var otherAccount:Account=function(){
+    return {
+        add(x){++x}
+    }
+}
+var b = otherAccount();
+b.add(5);*/ 

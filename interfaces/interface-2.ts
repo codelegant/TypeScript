@@ -11,8 +11,8 @@ interface Fullname {
 	firstname: string;
 	age?: number;
 }
-function printName(name: Fullname) {
+var printName=(name: Fullname)=>{
 	console.log(name.firstname)
 }
-var myName = { age: "str", firstname: "lai" };
+var myName = { age: 24, firstname: "lai" };
 printName(myName);

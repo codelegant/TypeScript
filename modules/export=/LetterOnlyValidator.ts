@@ -1,0 +1,3 @@
+    isAcceptable(s: string) {
+    }
+}

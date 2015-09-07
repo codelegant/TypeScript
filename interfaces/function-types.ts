@@ -12,7 +12,7 @@ var mySearch: searchFunc=function(src,sub){
 	}
 }
 //函数定义表达式
-var otherFunc:searchFunc=function(src,sub){
+var otherFunc:searchFunc=(src,sub)=>{
 	return true;
 }
 //如何使用函数声明语句，并且又能使用searchFunc这种interface?
