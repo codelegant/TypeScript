@@ -4,6 +4,7 @@ var HeAdd: (x: number, y: number) => number =
 
 var secondHeAdd: (x: number, y: number) => number = (x, y) => { return x + y; };
 
+var thirdHeAdd: { (x: number, y: number): number } = (x, y) => { return x + y; };
 
 var number = function(x: number, y: number): number {
 	return x + y;
