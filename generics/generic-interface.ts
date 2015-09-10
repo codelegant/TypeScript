@@ -6,7 +6,7 @@ function identity<T>(arg: T): T {
 }
 var myIdentity: GenericIdentityFn = identity;
 
-
+//明确接口的类型
 interface Identity<T>{
 	(arg: T): T;
 }

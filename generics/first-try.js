@@ -4,6 +4,7 @@ function identity(arg) {
 var output = identity("string");
 console.log(output);
 function identity_1(arg) {
+    console.log(arg.length);
     return arg;
 }
 console.log(identity_1(["laichuanfeng"]));

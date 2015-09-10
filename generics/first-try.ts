@@ -5,6 +5,7 @@ var output = identity<string>("string");
 console.log(output);
 
 function identity_1<T>(arg:T[]):T[]{
+	console.log(arg.length);
 	return arg;
 }
 console.log(identity_1<string>(["laichuanfeng"]));
