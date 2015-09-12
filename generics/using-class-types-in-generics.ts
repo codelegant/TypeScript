@@ -23,9 +23,8 @@ class Lion extends Animal {
 }
 
 function findKeeper<A extends Animal, K>(a: { new (): A; prototype: { keeper: K } }): K {
-	console.log(a);
-	return a.prototype.keeper;
+    return a.prototype.keeper;
 }
 var zookeeper = findKeeper(Lion);
-console.log(zookeeper.nametag);//The result should be "string";
+console.log(zookeeper);//The result should be "string";
 //What is K? a is class Lion,then A is instance of class Lion,K is Zookeeper;
