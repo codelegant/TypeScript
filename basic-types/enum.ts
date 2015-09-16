@@ -9,4 +9,4 @@ var e: Color_2 = Color_2.Green;
 
 enum Color_3{Red=1, Green=4, Blue=2};
 var colorName: string = Color_3[2];
-console.log(colorName);
+console.log(c);

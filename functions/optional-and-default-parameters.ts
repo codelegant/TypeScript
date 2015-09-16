@@ -5,3 +5,7 @@ var buildName = (firstName: string, lastName?: string) => {
 		return firstName;
 	}
 };
+
+function fuckyou(firstName: string, lastName = "Smith") {
+    return firstName + " " + lastName;
+}

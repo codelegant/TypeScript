@@ -30,4 +30,4 @@ var Color_3;
 })(Color_3 || (Color_3 = {}));
 ;
 var colorName = Color_3[2];
-console.log(colorName);
+console.log(c);
