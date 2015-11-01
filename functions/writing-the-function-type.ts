@@ -13,3 +13,7 @@ var number = function(x: number, y: number): number {
 var myAdd = function(x: number, y: number) {
 	return number(x, y);
 }
+
+declare var _: {
+	template(template: string): (module: any) => string;
+}
